@@ -24,6 +24,10 @@ public:
 	int imageHeight;
 	int depth;
 
+	int gImageWidth;
+	int gImageHeight;
+	unsigned char **gResultImg;
+
 // 작업입니다.
 public:
 
@@ -61,5 +65,18 @@ public:
 	void PixelTwoImageAdd();
 	void LoadTwoImages();
 	void LoadImageFile(CArchive& ar);
+	void Erosion();
+	void Dilation();
+	void Opening();
+	void CopyResultToInput();
+	void Closing();
+	void GeometryZoominPixelCopy();
+	void GeometryZoominInterpolation();
+	void GeometryZoomoutSubsampling();
+	void GeometryZoomoutAvg();
+	void GeometryMirror();
+	void GeometryFlip();
+	void GeometryRotate();
+	void GeometryWarping();
 };
 

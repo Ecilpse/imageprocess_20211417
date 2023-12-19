@@ -15,6 +15,7 @@ protected: // serialization에서만 만들어집니다.
 public:
 	CImageProDoc* GetDocument() const;
 	int viewMode;
+	char AVIFileName[256];
 
 // 작업입니다.
 public:
@@ -53,6 +54,20 @@ public:
 	void convolve(unsigned char** inimg, unsigned char** outimg, int cols, int rows, float mask[][3], int bias, int depth);
 	afx_msg void OnRegionSmoothing();
 	afx_msg void OnRegionEmbossing();
+	afx_msg void OnErosion();
+	afx_msg void OnDilation();
+	afx_msg void OnOpening();
+	afx_msg void OnClosing();
+	afx_msg void OnGeometryZoominPixelCopy();
+	afx_msg void OnGeometryZoominInterpolation();
+	afx_msg void OnGeometryZoomoutSubsampling();
+	afx_msg void OnGeometryZoomoutAvg();
+	afx_msg void OnGeometryMirror();
+	afx_msg void OnGeometryFlip();
+	afx_msg void OnGeometryRotate();
+	afx_msg void OnGeometryWarping();
+	afx_msg void OnAviView();
+	void loadAVIFile(CDC * pDC);
 };
 
 #ifndef _DEBUG  // ImageProView.cpp의 디버그 버전

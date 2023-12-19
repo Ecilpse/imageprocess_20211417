@@ -39,13 +39,52 @@
 #define ID_REGION_SMOOTHING             32777
 #define ID_32778                        32778
 #define ID_REGION_EMBOSSING             32779
+#define ID_32780                        32780
+#define ID_EROSION                      32781
+#define ID_32782                        32782
+#define ID_DILATION                     32783
+#define ID_32784                        32784
+#define ID_32785                        32785
+#define ID_32786                        32786
+#define ID_32787                        32787
+#define ID_32788                        32788
+#define ID_32789                        32789
+#define ID_32790                        32790
+#define ID_OPENING                      32791
+#define ID_CLOSING                      32792
+#define ID_32793                        32793
+#define ID_GEOMETRY_ZOOMIN_             32794
+#define ID_GEOMETRY_ZOOMIN_PIXEL_COPY   32795
+#define ID_32796                        32796
+#define ID_GEOMETRY                     32797
+#define ID_GEOMETRY_ZOOMIN_INTERPOLATION 32798
+#define ID_32799                        32799
+#define ID_GEOMETRY_ZOOMOUT_SUBSAMPLING 32800
+#define ID_32801                        32801
+#define ID_GEOMETRY_ZOOMOUT_AVG         32802
+#define ID_32803                        32803
+#define ID_GEOMETRY_MIRROR              32804
+#define ID_32805                        32805
+#define ID_GEOMETRY_FLIP                32806
+#define ID_32807                        32807
+#define ID_GEOMETRY_ROTATE              32808
+#define ID_32809                        32809
+#define ID_GEOMETRY_WARPING             32810
+#define ID_32811                        32811
+#define ID_AVI_VIEW                     32812
+#define ID_32813                        32813
+#define ID_AVI_VIEW2                    32814
+#define ID_32815                        32815
+#define ID_OPENCV32816                  32816
+#define ID_OPENCV                       32817
+#define ID_OpenCVView                   32818
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        310
-#define _APS_NEXT_COMMAND_VALUE         32780
+#define _APS_NEXT_COMMAND_VALUE         32819
 #define _APS_NEXT_CONTROL_VALUE         1000
 #define _APS_NEXT_SYMED_VALUE           310
 #endif
